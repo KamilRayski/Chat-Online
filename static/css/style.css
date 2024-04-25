@@ -1,0 +1,31 @@
+body,html{
+    margin: 0%;
+    overflow: hidden;
+    font-family: monospace;
+}
+.title>p{
+    font-size:4vh;
+    text-align: center;
+}
+.messages{
+    width: 60%;
+    margin: auto;
+    height: 700px;
+    /* overflow-y: scroll; */
+    text-align: center;
+    background-color: rgb(200, 200, 200);
+    font-size: 2vh;
+}
+.container{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.inputMessage{
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 2vh;
+}
